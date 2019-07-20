@@ -266,8 +266,30 @@ footer nav a {
 
 /* About Page */
 
+.about-head-img {
+  margin-bottom: 30px;
+}
+
 main{
   display: flex;
   max-width: 850px;
   flex-wrap: wrap;
+  justify-content:space-around;
+}
+
+main p{
+  max-width: 370px;
+}
+
+button {
+  background: white;
+  border: black solid 1.75px;
+  border-radius: 5px;
+  height: 28px;
+  width: 100px
+
+}
+
+footer a:visited {
+  color: white;
 }
