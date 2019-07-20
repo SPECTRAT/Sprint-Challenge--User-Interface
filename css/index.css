@@ -266,8 +266,21 @@ footer nav a {
 
 /* About Page */
 
+.aboutheader {
+  border-bottom: 1.5px black dashed;
+}
+
+.aboutheader p {
+  margin-bottom: 20px;
+}
+
 .about-head-img {
   margin-bottom: 30px;
+}
+
+.uppertext {
+  max-width: 760px;
+  margin: auto;
 }
 
 main{
@@ -281,15 +294,26 @@ main p{
   max-width: 370px;
 }
 
+main div {
+  margin-bottom: 30px;
+  border-bottom: black dashed 1.5px; 
+}
+
 button {
   background: white;
   border: black solid 1.75px;
   border-radius: 5px;
   height: 28px;
-  width: 100px
+  width: 100px;
+  margin: 15px 0px 15px 0px;
+}
 
+.lowertext {
+  max-width: 760px;
+  margin: 0 auto 30px auto;
 }
 
 footer a:visited {
   color: white;
 }
+
