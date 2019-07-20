@@ -299,6 +299,10 @@ main div {
   border-bottom: black dashed 1.5px; 
 }
 
+main img {
+  margin-bottom:15px;
+}
+
 button {
   background: white;
   border: black solid 1.75px;
