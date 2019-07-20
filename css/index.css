@@ -263,3 +263,11 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Page */
+
+main{
+  display: flex;
+  max-width: 850px;
+  flex-wrap: wrap;
+}
