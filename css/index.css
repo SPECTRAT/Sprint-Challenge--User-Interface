@@ -66,19 +66,26 @@ p {
     line-height: 1.4;
 }
 
-header {
-  display: flex;
+header {  
   max-width: 800px;
-  flex-wrap: wrap;
-}
+  margin: 30px auto 30px auto;
+} 
 
-.topNavigation {
+nav {
+  display: flex;
+  align-items: baseline; 
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.topNavigation a:link {
   
   text-decoration: none;
-  justify-content: center;
-  
+  color: black;
 }
-
+a:visited {
+  text-decoration: none;
+  color: black;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -114,15 +121,114 @@ header {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box2 {
+  width: 12.5%;
+  height: 100px;
+  background: gold;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box3 {
+  width: 12.5%;
+  height: 100px;
+  background: cadetblue;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box4 {
+  width: 12.5%;
+  height: 100px;
+  background: coral;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box5 {
+  width: 12.5%;
+  height: 100px;
+  background: crimson;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box6 {
+  width: 12.5%;
+  height: 100px;
+  background: forestgreen;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box7 {
+  width: 12.5%;
+  height: 100px;
+  background: darkorchid;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box8 {
+  width: 12.5%;
+  height: 100px;
+  background: hotpink;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box9 {
+  width: 12.5%;
+  height: 100px;
+  background: indigo;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box10 {
+  width: 12.5%;
+  height: 100px;
+  background: dodgerblue;
+  margin: 20px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .bottom-content {
