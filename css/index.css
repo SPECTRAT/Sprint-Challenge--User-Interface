@@ -66,6 +66,19 @@ p {
     line-height: 1.4;
 }
 
+header {
+  display: flex;
+  max-width: 800px;
+  flex-wrap: wrap;
+}
+
+.topNavigation {
+  
+  text-decoration: none;
+  justify-content: center;
+  
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
